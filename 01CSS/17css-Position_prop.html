@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position-Proerty</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        ul{
+            background-color: red;
+        }
+        li {
+            display: inline;
+            /* list-style: circle outside url('6image.png'); */
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 70px;
+        }
+        p{
+            text-align: center;
+            border: 2px solid red;
+
+        }
+        .container{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            padding: 0 34px;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+            /* relative-->means we can change the position of a box with the position of html parent */
+            /* position: relative; */
+            /* absolute-->means we can change the position of a box with the position of container parent */
+            position: absolute;
+            /* fixed-->means position is fixed ex->in website chat-with-us but we can scroll but the position fixed doesnt scroll it os fixed */
+            /* position: fixed; */
+            /* sticky-->also means that stuck his position  */
+            /* position: sticky; */
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(255, 94, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ad quis enim possimus dicta fugiat eum debitis, in aut ea earum, id cum est veniam aliquam nostrum tempore? Magni non est a. Maiores, impedit?</p>
+        <div class="box">
+            I am a Box
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eligendi ut hic repudiandae pariatur, id quibusdam labore sapiente exercitationem, illo, sunt libero dolorem culpa assumenda? Earum minus, iure molestiae optio accusantium rerum.
+        </div>
+    </div>
+    <ul>
+        <li>apple</li>
+        <li>banana</li>
+        <li>oranges</li>
+    </ul>
+</body>
+
+</html>
